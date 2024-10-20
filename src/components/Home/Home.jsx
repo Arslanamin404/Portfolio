@@ -1,14 +1,23 @@
 import { FiExternalLink } from "react-icons/fi";
 import avatar from "../../assets/avatar.png";
 import ArsalanRatherResume from "../../assets/ArsalanRatherResume.pdf";
-import { TextChanger } from "../../TextChanger";
+import { Typewriter } from "react-simple-typewriter";
 
 export const Home = () => {
   return (
     <div className="text-white w-full flex justify-between gap-x-10 items-center p-10 md:p-16">
       <div className="w-full md:pt-10">
-        <h1 className="text-3xl md:text-6xl font-bold flex leading tracking-tighter">
-          <TextChanger />
+        <h1 className="text-teal-400 text-3xl md:text-6xl font-bold flex leading tracking-tighter">
+          <span className="mr-2 md:mr-5 text-white">Hi, I'm</span>
+          <Typewriter
+            words={["Arsalan Rather"]}
+            loop={0}
+            cursor
+            cursorStyle="|"
+            typeSpeed={70}
+            deleteSpeed={50}
+            delaySpeed={1000}
+          />
         </h1>
         <p className="text-sm md:text-2xl leading-snug tracking-tight mt-1 text-justify">
           I'm a passionate and dedicated developer with a focus on FullStack
