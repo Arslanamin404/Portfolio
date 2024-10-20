@@ -26,16 +26,19 @@ export const Contact = () => {
       .then(
         () => {
           console.log(data);
-          toast.success("Message send successfully!", {
-            position: "top-center",
-            autoClose: 5000,
-            hideProgressBar: false,
-            closeOnClick: true,
-            pauseOnHover: true,
-            draggable: true,
-            progress: undefined,
-            theme: "dark",
-          });
+          toast.success(
+            "Your message has been successfully sent to Mohammad Arsalan Rather.",
+            {
+              position: "top-center",
+              autoClose: 5000,
+              hideProgressBar: false,
+              closeOnClick: true,
+              pauseOnHover: true,
+              draggable: true,
+              progress: undefined,
+              theme: "dark",
+            }
+          );
           reset();
         },
         (error) => {
