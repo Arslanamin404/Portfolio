@@ -27,7 +27,7 @@ export const Contact = () => {
         () => {
           console.log(data);
           toast.success(
-            "Your message has been successfully sent to Mohammad Arsalan Rather.",
+            "Your message has been successfully sent to Arsalan Rather.",
             {
               position: "top-center",
               autoClose: 5000,
