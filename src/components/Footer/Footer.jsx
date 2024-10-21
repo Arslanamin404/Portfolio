@@ -25,7 +25,7 @@ export const Footer = () => {
           <li>
             <a
               className="flex items-center justify-start hover:underline duration-300 gap-x-3"
-              href="www.linkedin.com/in/mohammad-arsalan-rather-27628722a" target="_blank"
+              href="https://www.linkedin.com/in/mohammad-arsalan-rather-27628722a" target="_blank"
             >
               <FaLinkedin size={20} />
               <p>www.linkedin.com/in/mohammad-arsalan-rather-27628722a</p>
