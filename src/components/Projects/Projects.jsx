@@ -19,6 +19,7 @@ export const Projects = () => {
             cardTitle={project.title}
             cardBody={project.description}
             cardLink={project.link}
+            cardSourceCodeLink={project.sourceCodeLink}
           />
         ))}
       </div>

@@ -9,9 +9,10 @@ import {
   FaJava,
   FaGithub,
 } from "react-icons/fa";
-import { SiMysql, SiC, SiCplusplus } from "react-icons/si";
+import { SiMysql, SiC, SiCplusplus, SiMongodb } from "react-icons/si";
 
 import { RiTailwindCssFill } from "react-icons/ri";
+import { IoLogoNodejs } from "react-icons/io5";
 
 export const Skills = () => {
   return (
@@ -20,7 +21,7 @@ export const Skills = () => {
         Technologies I Know
       </h1>
       <div className="flex flex-wrap items-center justify-center">
-        <div className="flex flex-wrap justify-center items-center md:w-2/4 lg:w-2/5 gap-6 md:gap-8 md:px-[4.2rem] py-10">
+        <div className="flex flex-wrap justify-center items-center lg:w-2/4 gap-6 md:gap-8 md:px-[4.2rem] py-10">
           <span className="bg-[#09090b] p-3 flex items-center rounded-2xl">
             <FaHtml5 color="#e34f26" size={50} className="hover:rotate-360 duration-300" />
           </span>
@@ -38,6 +39,17 @@ export const Skills = () => {
           </span>
           <span className="bg-[#09090b] p-3 flex items-center rounded-2xl">
             <FaReact color="#00D8FF" size={50} className="hover:rotate-360 duration-300" />
+          </span>
+          <span className="bg-[#09090b] p-3 flex items-center rounded-2xl">
+            <span className="text-white text-lg font-bold hover:rotate-360 duration-300">
+              Express
+            </span>
+          </span>
+          <span className="bg-[#09090b] p-3 flex items-center rounded-2xl">
+            <SiMongodb color="#47A248" size={50} className="hover:rotate-360 duration-300" />
+          </span>
+          <span className="bg-[#09090b] p-3 flex items-center rounded-2xl">
+            <IoLogoNodejs color="#339933" size={50} className="hover:rotate-360 duration-300" />
           </span>
           <span className="bg-[#09090b] p-3 flex items-center rounded-2xl">
             <FaGithub color="#FFFFFF" size={50} className="hover:rotate-360 duration-300" />
