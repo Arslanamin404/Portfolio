@@ -1,6 +1,6 @@
 import { FiExternalLink } from "react-icons/fi";
 import avatar from "../../assets/avatar.png";
-import ArsalanRatherResume from "../../assets/ArsalanRatherResume.pdf";
+import ArsalanRatherResume from "../../assets/Resume.pdf";
 import { Typewriter } from "react-simple-typewriter";
 
 export const Home = () => {
